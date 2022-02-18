@@ -146,3 +146,76 @@ body {
 }
 
 /** IMG HERADER **/
+
+/** ACERCA DE NOSOTROS **/
+
+.about-us{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.about-us .info-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-us .info-container h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us .info-container p{
+    text-align: center;
+    font-size: 17px;
+    color: var(--black);
+    line-height: 35px;
+    margin: 10px 0px;
+}
+
+.about-us .info-container .about-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 10px;
+}
+
+.about-us .info-container .about-gallery img{
+    width: calc(33.333% - 10px);
+    height: 300px;
+    margin: 10px 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-us .info-container .about-more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us .info-container .about-more button{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background: var(--red);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.about-us .info-container .about-more button:hover{
+    background: var(--blue);
+}
+/** ACERCA DE NOSOTROS **/
