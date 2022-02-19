@@ -65,18 +65,30 @@ $(document).ready(function () {
 
         if (posicion <= 600) {
             // OCULTAR ESTILOS MENU SCROLL
-            $(".menu").css("boderBottom", "none");
-
+            $(".menu").css("borderBottom", "none");
+            
             // OCULTAR IR ARRIBA
             $(".go-top").css("right", "-100%");
         }else{
             // MOSTRAR ESTILOS MENU SCROLL
-            $(".menu").css("boderBottom", "3px solid #ff2e63");
-
+            $(".menu").css("borderBottom", "3px solid #ff2e63");
              // MOSTRAR IR ARRIBA
-             $(".go-top").css("right", '0');
+             $(".go-top").css("right", '10px');
              $(".go-top").css("transition", "500ms");
         }
     }
 
+    // FUNCION IR ARRIBA
+    $('.go-top').on('click', function () {
+        $('body, html').animate({
+            scrollTop: '0'
+        }, 500);
+    });
+
+    // FUNCION VER ABAJO
+    $('#down').on('click', function () {
+        $('body, html').animate({
+            scrollTop: '600px'
+        }, 500);
+    });
 });
