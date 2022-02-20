@@ -1,5 +1,5 @@
 :root {
-    --red: #ff2e63;
+    --red: #E74C3C;
     --blue: #08d9d6;
     --black: #252a34;
     --white: #eaeaea;
@@ -14,7 +14,9 @@
 body {
     background: #fff;
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rochester', cursive;
+    /* font-family: 'Krub', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 /* IR ARRIBA */
@@ -161,12 +163,17 @@ body {
 
 .img-header .welcome h1{
     font-size: 50px;
-    color: #fff;
+    color: var(--white);
     font-weight: 200;
 }
 
+.img-header .welcome h1 span{
+    font-size: 150px;
+    color: var(--red);
+}
+
 .img-header .welcome hr{
-    width: 400px;
+    width: 460px;
     height: 2px;
     background: #fff;
     border: none;
