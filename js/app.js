@@ -88,7 +88,7 @@ $(document).ready(function () {
     // FUNCION VER ABAJO
     $('#down').on('click', function () {
         $('body, html').animate({
-            scrollTop: '600px'
+            scrollTop: '750px'
         }, 500);
     });
 });

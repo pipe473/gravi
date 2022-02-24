@@ -181,7 +181,7 @@ body {
 }
 
 .img-header .welcome p{
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
     margin-top: 20px;
 }
@@ -232,7 +232,7 @@ body {
 
 .about-us .info-container p{
     text-align: center;
-    font-size: 17px;
+    font-size: 28px;
     color: var(--black);
     line-height: 35px;
     margin: 10px 0px;
@@ -478,7 +478,7 @@ footer .deg-footer .ejeZfooter{
 
 
 footer .deg-footer .ejeZfooter .footer-content{
-    padding-top: 100px;
+    padding-top: 135px;
     width: 90%;
     margin: auto;
 }
