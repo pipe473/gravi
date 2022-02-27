@@ -545,10 +545,12 @@ footer .formulario-content #formulario textarea{
     height: 200px;
     margin: auto;
     border-radius: 24px;
+    /* border-radius: 10px; */
+    text-align: center;
     outline: none;
     border: 1.5px solid var(--red);
     padding: 20pxxs;
-    font-size: 15px;
+    font-size: 18px;
     color: var(--black);
 }
 
@@ -581,6 +583,7 @@ footer .formulario-content #formulario .mensaje-form{
     width: 100%;
     margin: auto;
     padding: 20px;
+    text-align: center;
 }
 
 footer .formulario-content #formulario .mensaje-form p{

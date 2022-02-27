@@ -91,4 +91,32 @@ $(document).ready(function () {
             scrollTop: '750px'
         }, 500);
     });
+
+     // FUNCION NOSOTROS
+     $('.our').on('click', function () {
+        $('body, html').animate({
+            scrollTop: '750px'
+        }, 500);
+    });
+
+    // FUNCION PROYECTOS
+    $('.projects').on('click', function () {
+        $('body, html').animate({
+            scrollTop: '2200px'
+        }, 500);
+    });
+
+    // FUNCION SEVICIOS
+    $('.services').on('click', function () {
+        $('body, html').animate({
+            scrollTop: '3820px'
+        }, 500);
+    });
+
+     // FUNCION CONTACT
+     $('.contact').on('click', function () {
+        $('body, html').animate({
+            scrollTop: '5450px'
+        }, 500);
+    });
 });
