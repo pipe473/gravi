@@ -11,11 +11,14 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Rochester&display=swap"
       rel="stylesheet"
     />
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@100&display=swap" rel="stylesheet" /> -->
   </head>
 
   <body>
@@ -55,8 +58,33 @@
       </div>
       <div class="skew-down"></div>
     </header>
-
+    
     <!-- FIN CABECERA -->
+
+    <!-- SLIDER -->
+    <div class="slideshow-container" style="margin-top: 60px; margin-bottom: 60px;">
+       <!-- PRIMER SLIDER -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img/daiga-ellaby-uooMllXe6gE-unsplash.jpeg" style="width:100%; height: 450px;">
+        <div class="text">Caption Text</div>
+      </div>
+       <!-- SEGUNDO SLIDER -->
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img/daiga-ellaby-uooMllXe6gE-unsplash.jpeg" style="width:100%; height: 450px;">
+        <div class="text">Caption Two</div>
+      </div>
+       <!-- TERCER SLIDER -->
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img/jeshoots-com-__ZMnefoI3k-unsplash.jpeg" style="width:100%; height: 450px;">
+        <div class="text">Caption Three</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+     <!-- FIN SLIDER -->
 
     <main>
       <!-- ACERCA DE NOSOTROS -->
@@ -65,17 +93,24 @@
           <h1>Nosaltres</h1>
           <p>
             Gravi solucions, va ser creada amb molta il·lusió per tal de poder oferir uns serveis de qualitat, eficiència,… amb un tracte totalment personalitzat envers els nostres clients.
-            Disposem de personal qualificat, en constant formació,… que al igual que nosaltres estimen aquest projecte que esta en constant creixement, millora, adequació a les necessitats del client,… 
-            Per nosaltres el capital humà és la part fonamental d’aquesta empresa, aconseguint amb això tenir als nostres treballadors lluitant dia a dia per les mateixes metes que nosaltres, fent-los sentir part de tot, de nosaltres, de mi.
-            El tracte amb el client es la nostra essència i vocació tant a nivell d’administradors de comunitats, que en aquest cas, nosaltres, al tenir un contacte més constant i directe amb ells, també som els seus ulls en el cas que alguna cosa no funcioni bé, s’hagi de reparar,… aconseguint així una confiança i tranquil·litat, que en tots els casos valoren, ja que un administrador de comunitats de propietaris no pot estar sempre insitu. 
-            Per altra banda les neteges de particulars, on la confiança, la polidesa,..           
+          </p>
+            <p>
+              Disposem de personal qualificat, en constant formació,… que al igual que nosaltres estimen aquest projecte que esta en constant creixement, millora, adequació a les necessitats del client,… 
+              Per nosaltres el capital humà és la part fonamental d’aquesta empresa, aconseguint amb això tenir als nostres treballadors lluitant dia a dia per les mateixes metes que nosaltres, fent-los sentir part de tot, de nosaltres, de mi.             
+            </p>
+            <p>
+               El tracte amb el client es la nostra essència i vocació tant a nivell d’administradors de comunitats, que en aquest cas, nosaltres, al tenir un contacte més constant i directe amb ells, també som els seus ulls en el cas que alguna cosa no funcioni bé, s’hagi de reparar,… aconseguint així una confiança i tranquil·litat, que en tots els casos valoren, ja que un administrador de comunitats de propietaris no pot estar sempre insitu. 
+              Per altra banda les neteges de particulars, on la confiança, la polidesa,..  es el nostre puntal de feina. 
+            </p>
+          <p>            
+            Pel que fa a reformes i puntura, comptem amb personal amb experiència, polit, actiu i amb un ampli coneixement en diferents àmbits per oferir un multiservei de qualitat.
+            Pel que fa a les neteges industrials, els nostres clients, que al tenir unes necessitats més específiques requereixen de més observació, detalls,... ens demostren dia a dia el seu grau de satisfacció.                           
           </p>
           <p>
-            es el nostre puntal de feina. 
-            Pel que fa a reformes i puntura, comptem amb personal amb experiència, polit, actiu i amb un ampli coneixement en diferents àmbits per oferir un multiservei de qualitat.
-            Pel que fa a les neteges industrials, els nostres clients, que al tenir unes necessitats més específiques requereixen de més observació, detalls,... ens demostren dia a dia el seu grau de satisfacció.
-            El no, a la nostra, a la meva empresa no existeix, per mi es vital està sempre en constant moviment i renovació, sempre atenta a les necessitats dels clients, donant les màximes facilitats per tot el que requereixen, ja que les necessitats són molt diverses, però poder-les cobrir es una gran satisfacció tant en l’àmbit laboral com personal.
-            Fent honor al nostre lema i manera de fer:           
+            El no, a la nostra, a la meva empresa no existeix, per mi es vital està sempre en constant moviment i renovació, sempre atenta a les necessitats dels clients, donant les màximes facilitats per tot el que requereixen, ja que les necessitats són molt diverses, però poder-les cobrir es una gran satisfacció tant en l’àmbit laboral com personal.     
+          </p>
+          <p>
+            Fent honor al nostre lema i manera de fer:  
           </p>
           <p><strong>SEMPRE AL SERVEI DELS NOSTRES CLIENTS !!!!</strong></p>
           <div class="about-gallery">
@@ -92,7 +127,7 @@
               alt="test-image3"
             />
           </div>
-          <div class="about-more"><button>Leer más</button></div>
+          <!-- <div class="about-more"><button>Leer más</button></div> -->
         </div>
       </sectio>
       <!-- ACERCA DE NOSOTROS -->
@@ -311,5 +346,6 @@
     ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="/js/slider.js"></script>
   </body>
 </html>
