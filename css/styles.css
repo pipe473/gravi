@@ -14,9 +14,9 @@
 body {
     background: #fff;
     overflow-x: hidden;
-    font-family: 'Rochester', cursive;
+    /* font-family: 'Rochester', cursive; */
     /* font-family: 'Krub', sans-serif; */
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 /* IR ARRIBA */
@@ -55,8 +55,8 @@ body {
 
 /* SLIDER */
 .slideshow-container{
-    /* max-width: 1000px; */
-    width: 100%;
+    max-width: 1000px;
+    /* width: 100%; */
     position:relative;
     margin:auto;
    }
@@ -157,10 +157,15 @@ body {
 }
 
 .menu .logo-box h1 a{
+    font-family: 'Rochester', cursive;
     text-decoration: none;
     font-size: 26px;
     font-weight: 400;
-    color: (var(--black));
+    color: #E74C3C;
+}
+.menu .logo-box h1 a span{
+    color: black;
+    font-size: 16px;
 }
 .menu .list-container{
     margin-right: 20px;
@@ -175,7 +180,7 @@ body {
     text-decoration: none;
     margin: 0px 10px;
     padding: 8px;
-    color: (var(--black));
+    color: (var(--white));
     border-radius: 24px;
     transition: 0.3s;
     font-size: 18px;
@@ -206,6 +211,7 @@ body {
 }
 
 .img-header .welcome{
+     font-family: 'Rochester', cursive;
     position: absolute;
     top: 0;
     left: 0;
@@ -239,6 +245,7 @@ body {
 }
 
 .img-header .welcome p{
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     color: #fff;
     margin-top: 20px;
@@ -707,20 +714,20 @@ footer .footer-text p{
         flex-direction: column;
         border-top: 4px solid var(--red);
     }
-    .menu .list-container .lists li{
+    .menu .list-container .lists li{        
         width: 90%;
         border-bottom: 2px solid var(--black);
         display: flex;
         justify-content: center;
     }
 
-    .menu .list-container .lists li a{
+    .menu .list-container .lists li a{        
         font-size: 20px;
         text-align: center;
         padding: 12px 0px;        
-    }
+    }    
 
-    .menu .list-container .lists li a.active{
+    .menu .list-container .lists li a.active{       
         background: none;
         color: var(--red);
     }
